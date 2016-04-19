@@ -87,7 +87,88 @@ picture {
 }
 
 header {
-  background-color: $light-gray;
+  .choose-language,
+  .logo,
+  .contacts-block {
+    height: 185px;
+    margin-bottom: 5px;
+  }
+  .choose-language {
+    position: relative;
+
+    padding-top: 70px;
+    padding-left: 30px;
+    h6,
+    ul {
+      width: 192px;
+    }
+    h6 {
+      font-weight: bold;
+
+      position: absolute;
+      top: 60px;
+
+      text-align: center;
+      white-space: nowrap;
+      text-transform: uppercase;
+
+      color: $blue;
+      span {
+        padding: 2px;
+
+        background-color: #fff;
+      }
+    }
+    ul {
+      display: block;
+
+      padding: 10px 10px 10px 32px;
+
+      border: 1px solid $blue;
+      li {
+        font-size: 16px;
+        font-weight: bold;
+
+        position: relative;
+
+        margin: 0;
+        padding: 2px 0 2px 35px;
+        a {
+          color: $dark-gray;
+        }
+        &.active,
+        &:hover {
+          a {
+            text-decoration: none;
+
+            color: $red;
+          }
+        }
+        &:before {
+          position: absolute;
+          top: 4px;
+          left: 0;
+
+          @extend .dblock;
+        }
+        &.lang-bg {
+          &:before {
+            @include sprite($sprite-ico-lang-bg);
+          }
+        }
+        &.lang-ru {
+          &:before {
+            @include sprite($sprite-ico-lang-ru);
+          }
+        }
+        &.lang-en {
+          &:before {
+            @include sprite($sprite-ico-lang-en);
+          }
+        }
+      }
+    }
+  }
   .logo {
     display: block;
 
@@ -98,15 +179,25 @@ header {
   }
 }
 nav {
-  ul {
-    @extend .justify-child;
+  border-top: 2px solid $blue;
+  border-bottom: 2px solid $blue;
+  .headnav {
+    padding: 16px 0;
+
+    text-align: center;
+
     @extend .clearfix;
     li {
+      font-size: 14px;
+      font-weight: bold;
+
       display: inline-block;
+      a {
+        padding: 0 10px;
+
+        color: $dark-gray;
+      }
     }
-  }
-  .headnav {
-    width: $width / 5;
   }
 }
 
@@ -114,7 +205,26 @@ section {
   padding: 0 0 $footer;
 }
 article {
+  padding: 40px;
+
   @extend .clearfix;
+  table {
+    margin-bottom: 36px;
+
+    background-image: url(../img/table-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    td,
+    th {
+      font-size: 18px;
+
+      text-align: center;
+      vertical-align: middle;
+
+      border: 2px solid $blue;
+    }
+  }
 }
 .looper {
   @extend .clearfix;
