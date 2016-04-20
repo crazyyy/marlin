@@ -16,6 +16,7 @@ body {
   font-weight: $f-norm;
   line-height: $base-line-height;
 
+
   color: $base-font-color;
   background-color: $base-background-color;
 
@@ -88,7 +89,7 @@ picture {
 
 header {
   .choose-language,
-  .logo,
+  .logo-block,
   .contacts-block {
     height: 185px;
     margin-bottom: 5px;
@@ -169,12 +170,83 @@ header {
       }
     }
   }
-  .logo {
-    display: block;
+  .logo-block {
+    padding-top: 14px;
+    .logo {
+      display: block;
 
-    width: $width / 10;
-    img {
-      max-width: 100%;
+      width: 151px;
+      height: 162px;
+      margin: 0 auto;
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+  .contacts-block {
+    padding-top: 55px;
+    .contact-phone,
+    .contact-mail {
+      position: relative;
+
+      display: block;
+      float: right;
+
+      text-align: right;
+
+      border: 1px solid $blue;
+      &:before,
+      &:after {
+        position: absolute;
+        top: 50%;
+
+        margin-top: -14px;
+
+        @extend .dblock;
+      }
+    }
+    .contact-phone {
+      margin-bottom: 15px;
+      padding: 6px 8px 6px 30px;
+      span,
+      a {
+        line-height: 1.2;
+
+        display: block;
+
+        margin-bottom: 0;
+
+        color: $dark-gray;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+      &:before {
+        left: -8px;
+
+        @include sprite($sprite-ico-phone);
+      }
+      &:after {
+        display: none;
+      }
+    }
+    .contact-mail {
+      padding: 6px 6px 6px 12px;
+
+      color: $dark-gray;
+      &:hover {
+        text-decoration: none;
+      }
+      &:before,
+      &:after {
+        left: -34px;
+
+        @include sprite($sprite-ico-mail);
+      }
+      &:before {
+        background-color: #fff;
+        background-image: none;
+      }
     }
   }
 }
