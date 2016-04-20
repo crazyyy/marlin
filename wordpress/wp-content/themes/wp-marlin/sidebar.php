@@ -1,11 +1,4 @@
-<aside class="sidebar" role="complementary">
-
-  <?php if ( is_active_sidebar('widgetarea1') ) : ?>
-    <?php dynamic_sidebar( 'widgetarea1' ); ?>
-  <?php else : ?>
-
-    <!-- If you want display static widget content - write code here
-		RU: Здесь код вывода того, что необходимо для статического контента виджетов -->
-
-  <?php endif; ?>
-</aside><!-- /sidebar -->
+<aside class="col-md-12 callback-form">
+  <h6>ФОРМА ОБРАТНОЙ СВЯЗИ</h6>
+  <?php echo do_shortcode('[contact-form-7 id="39" title="ContactForm"]'); ?>
+</aside><!-- /.callback-form -->

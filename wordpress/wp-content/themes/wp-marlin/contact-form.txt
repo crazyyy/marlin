@@ -1,0 +1,9 @@
+    <span class="input-name"><span>Ваше имя</span><input type="text" name="name"></span>
+    <span class="input-email"><span>Ваш email</span><input type="text" name="email"></span>
+    <span class="input-phone"><span>Ваш телефон</span><input type="text" name="phone"></span>
+    <textarea name="textarea" placeholder="Сообщение"></textarea>
+    <input type="submit" value="ОТПРАВИТЬ">
+	
+	
+	
+<div class="input-name"><span class="placeholders">Ваше имя</span>[text name]</div><div class="input-email"><span class="placeholders">Ваш email</span>[text email]</div><div class="input-phone"><span class="placeholders">Ваш телефон</span>[text phone]</div><textarea name="textarea" placeholder="Сообщение"></textarea>[submit "Отправить"]

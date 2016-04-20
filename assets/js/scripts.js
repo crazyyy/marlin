@@ -29,10 +29,10 @@ if (typeof jQuery == 'undefined') {
  * if input not clear - do not add opacity to span
  */
 $('input').on('focus', function() {
-  $(this).parent('span').addClass('input-focused');
+  $(this).parent().parent('div').addClass('input-focused');
 })
 $('input').on('focusout', function() {
   if ( $(this).val() < 1 ) {
-    $(this).parent('span').removeClass('input-focused');
+    $(this).parent().parent('div').removeClass('input-focused');
   }
 })

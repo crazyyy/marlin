@@ -24,25 +24,41 @@
 <!-- wrapper -->
 <div class="wrapper">
   <header role="banner">
-    <div class="inner">
+    <div class="container">
+      <div class="row">
 
-      <div class="logo">
-        <?php if ( is_front_page() && is_home() ){ } else { ?>
-          <a href="<?php echo home_url(); ?>">
-            <?php  } ?>
+        <div class="col-md-3 choose-language">
+          <h6><span>CHOOSE LANGUAGE</span></h6>
+          <ul>
+            <li class="lang-bg"><a href="">БЪЛГАРСКИ</a></li>
+            <li class="lang-ru"><a href="">РУССКИЙ</a></li>
+            <li class="lang-en"><a href="">ENGLISH</a></li>
+          </ul>
+        </div><!-- /.col-md-3 choose-language -->
+
+        <div class="col-md-6 logo-block">
+          <a class="logo" href="<?php echo home_url(); ?>">
             <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="<?php wp_title( '' ); ?>" title="<?php wp_title( '' ); ?>" class="logo-img">
-            <?php if ( is_front_page() && is_home() ){
-            } else { ?>
           </a>
-        <?php } ?>
-      </div><!-- /logo -->
+        </div><!-- /logo -->
 
-      <nav class="nav" role="navigation">
-        <?php wpeHeadNav(); ?>
-      </nav><!-- /nav -->
+        <div class="col-md-3 contacts-block">
+          <div class="contact-phone">
+            <span>ТЕЛЕФОНЫ</span>
+            <a href="tel:+359877255229">+359 877 255 229</a>
+            <a href="tel:+359877255224">+359 877 255 224 </a>
+          </div><!-- /.contact-phone -->
+          <a href="mailto:marlin.burgas@gmail.com" class="contact-mail">marlin.burgas@gmail.com</a>
+        </div><!-- /.col-md-3 contacts-block -->
 
-    </div><!-- /.inner -->
+        <nav class="col-md-12 nav" role="navigation">
+          <?php wpeHeadNav(); ?>
+        </nav><!-- /nav -->
+
+      </div><!-- /.row -->
+    </div>
   </header><!-- /header -->
 
   <section role="main">
-    <div class="inner">
+    <div class="container">
+      <div class="row">

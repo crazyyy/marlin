@@ -129,7 +129,8 @@ gulp.task('scripts:vendor', function() {
   return gulp.src([
     appFiles.vendor_scripts + 'modernizr.js',
     appFiles.vendor_scripts + 'jquery-1.12.2.js',
-    // appFiles.vendor_scripts + 'jquery-1.12.2.js',
+    appFiles.vendor_scripts + 'jquery.form.js',
+    appFiles.vendor_scripts + 'cf7-scripts.js',
   ])
   .pipe(customPlumber('Error Compiling Vendor Scripts'))
   .pipe(plugins.newer(paths.scripts.dest))
