@@ -22,3 +22,17 @@ if (typeof jQuery == 'undefined') {
 }
 // Place any jQuery/helper plugins in here.
 
+/**
+ * Form input placeholder with image checker
+ * if user focused on input - add opacity to span with placeholder
+ * when user is focusout - set no opacity
+ * if input not clear - do not add opacity to span
+ */
+$('input').on('focus', function() {
+  $(this).parent('span').addClass('input-focused');
+})
+$('input').on('focusout', function() {
+  if ( $(this).val() < 1 ) {
+    $(this).parent('span').removeClass('input-focused');
+  }
+})

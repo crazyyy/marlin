@@ -16,7 +16,6 @@ body {
   font-weight: $f-norm;
   line-height: $base-line-height;
 
-
   color: $base-font-color;
   background-color: $base-background-color;
 
@@ -277,9 +276,10 @@ section {
   padding: 0 0 $footer;
 }
 article {
-  padding: 40px;
-
   @extend .clearfix;
+  &.col-md-12 {
+    padding: 40px;
+  }
   table {
     margin-bottom: 36px;
 
@@ -301,15 +301,153 @@ article {
 .looper {
   @extend .clearfix;
 }
+.callback-form {
+  padding: 30px 80px 80px;
 
+  border-top: 2px solid $blue;
+  h6 {
+    font-weight: bold;
+
+    margin-bottom: 30px;
+
+    text-align: center;
+    text-transform: uppercase;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+
+    height: 280px;
+
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  input[type='text'] {
+    width: 230px;
+    height: 46px;
+    /* margin-bottom: 30px; */
+
+    background-color: transparent;
+  }
+  input[type='submit'] {
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 1;
+
+    width: 230px;
+    height: 46px;
+    padding-top: 12px;
+
+    letter-spacing: 1px;
+
+    align-self: flex-end;
+  }
+  textarea {
+    width: 730px;
+    height: 200px;
+    margin-bottom: 30px;
+
+    align-self: flex-end;
+  }
+  textarea {
+    background-color: #f7f7f7;
+  }
+  .input-name,
+  .input-email,
+  .input-phone {
+    position: relative;
+
+    width: 230px;
+    height: 46px;
+    margin-bottom: 30px;
+    padding: 10px;
+
+    background-color: #f7f7f7;
+    input {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+    span {
+      position: relative;
+
+      padding-left: 50px;
+
+      opacity: 1;
+      color: #b9b9b9;
+      &:before {
+        position: absolute;
+        top: 12px;
+        left: 3px;
+
+        width: 20px;
+        height: 20px;
+        margin-top: -15px;
+
+        @extend .dblock;
+      }
+    }
+  }
+  .input-name {
+    span {
+      &:before {
+        @include sprite($sprite-ico-form-name);
+      }
+    }
+  }
+  .input-email {
+    span {
+      &:before {
+        @include sprite($sprite-ico-form-email);
+      }
+    }
+  }
+  .input-phone {
+    span {
+      &:before {
+        @include sprite($sprite-ico-form-phone);
+      }
+    }
+  }
+  .input-focused {
+    span {
+      opacity: 0;
+    }
+  }
+}
 
 footer {
   height: $footer;
   margin: $footer_margin auto 0;
-
-  background-color: $light-gray;
-  .inner {
+  .container {
     height: $footer;
+
+    border-top: 2px solid $blue;
+  }
+  .footer-copyright {
+    font-size: 14px;
+
+    padding: 25px 0 0 130px;
+
+    text-transform: uppercase;
+
+    background-image: url(../img/logo-footer.png);
+    background-repeat: no-repeat;
+    background-position: 28px 10px;
+  }
+  .footer-phone {
+    padding: 25px 25px 0 0;
+
+    text-align: right;
+    a {
+      font-size: 14px;
+
+      display: block;
+
+      color: $dark-gray;
+    }
   }
 }
 
