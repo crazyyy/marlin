@@ -85,7 +85,9 @@ picture {
 
   @extend .clearfix;
 }
-
+.container {
+  min-width: 540px !important;
+}
 header {
   .choose-language,
   .logo-block,
@@ -125,6 +127,8 @@ header {
       padding: 10px 10px 10px 32px;
 
       border: 1px solid $blue;
+
+      @extend .clearfix;
       li {
         font-size: 16px;
         font-weight: bold;
@@ -395,7 +399,7 @@ article {
     flex-wrap: wrap;
   }
   input[type='text'] {
-    width: 230px;
+    width: 100%;
     height: 46px;
     /* margin-bottom: 30px; */
 
@@ -528,6 +532,74 @@ footer {
     }
   }
 }
+
+@media (max-width: 1200px) {
+  .callback-form {
+    form {
+      height: auto;
+    }
+    .input-name,
+    .input-email,
+    .input-phone {
+      width: 100%;
+      input {
+      }
+    }
+    textarea {
+      width: 100%;
+
+      align-self: auto;
+    }
+  }
+}
+
+@media (max-width: 990px) {
+  header {
+    .row {
+      position: relative;
+    }
+    .logo-block {
+      position: absolute;
+      top: 110px;
+      left: 190px;
+
+      width: 120px;
+      padding-top: 0;
+      .logo {
+        width: 100%;
+      }
+    }
+    .choose-language {
+      height: 100px;
+      padding-top: 30px;
+      h6 {
+        top: 20px;
+      }
+      h6,
+      ul {
+        width: 100%;
+      }
+      ul {
+        li {
+          display: inline-block;
+          float: left;
+
+          width: 33%;
+        }
+      }
+    }
+    .contacts-block {
+      padding-top: 20px;
+      height: 120px;
+      .contact-phone {
+        float: left;
+
+        margin-left: 15px;
+      }
+    }
+  }
+}
+
 
 
 @import 'fonts/font_fontawesome';
