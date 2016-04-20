@@ -30,9 +30,9 @@
         <div class="col-md-3 choose-language">
           <h6><span>CHOOSE LANGUAGE</span></h6>
           <ul>
-            <li class="lang-bg"><a href="">БЪЛГАРСКИ</a></li>
-            <li class="lang-ru"><a href="">РУССКИЙ</a></li>
-            <li class="lang-en"><a href="">ENGLISH</a></li>
+            <li class="lang-bg"><a href="<?php echo home_url(); ?>/?lang=bg">БЪЛГАРСКИ</a></li>
+            <li class="lang-ru"><a href="<?php echo home_url(); ?>/?lang=ru">РУССКИЙ</a></li>
+            <li class="lang-en"><a href="<?php echo home_url(); ?>/?lang=en">ENGLISH</a></li>
           </ul>
         </div><!-- /.col-md-3 choose-language -->
 
@@ -44,7 +44,7 @@
 
         <div class="col-md-3 contacts-block">
           <div class="contact-phone">
-            <span>ТЕЛЕФОНЫ</span>
+            <span><?php _e( 'PHONES', 'wpeasy' ); ?></span>
             <a href="tel:+359877255229">+359 877 255 229</a>
             <a href="tel:+359877255224">+359 877 255 224 </a>
           </div><!-- /.contact-phone -->

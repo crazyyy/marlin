@@ -1,0 +1,174 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Marlin\n"
+"POT-Creation-Date: 2016-04-20 18:56+0300\n"
+"PO-Revision-Date: 2016-04-20 18:57+0300\n"
+"Last-Translator: saitobaza.ru <aparserok@gmail.com>\n"
+"Language-Team: saitobaza.ru <aparserok@gmail.com>\n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:4
+msgid "Page not found"
+msgstr "Страницата не е намерена"
+
+#: 404.php:5
+msgid "Return home?"
+msgstr "Върни се към началната страница"
+
+#: category.php:4
+msgid "Categories for"
+msgstr "Категории за"
+
+#: comments.php:3
+msgid "Post is password protected. Enter the password to view any comments."
+msgstr ""
+"Тази публикация е защитена с парола. Моля, въведете парола, за да видите "
+"коменатрите."
+
+#: comments.php:18
+msgid "Comments are closed here."
+msgstr "Коментарите са затворени"
+
+#: footer.php:11
+msgid "ALL RIGHTS RESERVED"
+msgstr "Всички права запазени"
+
+#: footer.php:11
+msgid "year"
+msgstr "група"
+
+#: functions.php:162
+msgid "Меню в шапке"
+msgstr "МЕНЮ В ШАПКЕ"
+
+#: functions.php:163
+msgid "Меню в сайдбар"
+msgstr "МЕНЮ В САЙДБАР"
+
+#: functions.php:164
+msgid "Меню в подвал"
+msgstr "МЕНЮ В ПОДВАЛ"
+
+#: functions.php:171
+msgid "Блок виджетов #1"
+msgstr "БЛОК ВИДЖЕТОВ #1"
+
+#: functions.php:172
+msgid "Description for this widget-area..."
+msgstr "Описание за тази джаджа-област..."
+
+#: functions.php:340
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">казва:</span>"
+
+#: functions.php:343
+msgid "Your comment is awaiting moderation."
+msgstr "Коментрът ти очаква одобрение."
+
+#: functions.php:348
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: functions.php:348
+msgid "(Edit)"
+msgstr "(Промяна)"
+
+#: functions.php:547
+msgid "Page"
+msgstr "Страница"
+
+#: header.php:47
+msgid "PHONES"
+msgstr "ТЕЛЕФОНИ"
+
+#: index.php:4
+msgid "Latest Posts"
+msgstr "Последни публокации"
+
+#: loop.php:17 single.php:13
+msgid "Published by"
+msgstr "Публикувано от"
+
+#: loop.php:18 single.php:14
+msgid "Leave your thoughts"
+msgstr "Оставете мислите си"
+
+#: loop.php:18 single.php:14
+msgid "1 Comment"
+msgstr "1 Коментар"
+
+#: loop.php:18 single.php:14
+msgid "% Comments"
+msgstr "% Коментари"
+
+#: loop.php:26 page.php:13 single.php:32
+msgid "Sorry, nothing to display."
+msgstr "Съжаляваме, страницата е празна"
+
+#: search.php:4
+#, php-format
+msgid "%s Search Results for "
+msgstr "%s Резултати от търсене за"
+
+#: searchform.php:3
+msgid "Search"
+msgstr "Търси"
+
+#: sidebar.php:2
+msgid "FEEDBACK FORM"
+msgstr "ФОРМА ЗА ОБРАТНА ВРЪЗКА"
+
+#: single.php:18
+msgid "Tags: "
+msgstr "Етикети:"
+
+#: single.php:20
+msgid "Categorised in: "
+msgstr "Категоризирани в:"
+
+#: single.php:22
+msgid "This post was written by "
+msgstr "Тази публикация е написана от"
+
+#. Theme Name of the plugin/theme
+msgid "WP Marlin"
+msgstr "WP Marlin"
+
+#. Theme URI of the plugin/theme
+msgid "https://github.com/crazyyy/wp-framework.git"
+msgstr "https://github.com/crazyyy/wp-framework.git"
+
+#. Description of the plugin/theme
+msgid ""
+"Приветствую. <br />Тема создана для удобной интеграции шаблонов в WordPress, "
+"поддерживает все современыне фишки, минимизированная.<br />Если вам нужна "
+"интеграция вашего шаблона на WP, верстка или внести правки - обращайтесь в "
+"поддержку - http://saitobaza.ru/, icq 633-308-800"
+msgstr ""
+"Приветствую. <br />Тема создана для удобной интеграции шаблонов в WordPress, "
+"поддерживает все современыне фишки, минимизированная.<br />Если вам нужна "
+"интеграция вашего шаблона на WP, верстка или внести правки - обращайтесь в "
+"поддержку - http://saitobaza.ru/, icq 633-308-800"
+
+#. Author of the plugin/theme
+msgid "Antoniuk Vitali & friends"
+msgstr "Antoniuk Vitali & приятели"
+
+#. Author URI of the plugin/theme
+msgid "http://saitobaza.ru/"
+msgstr "http://saitobaza.ru/"

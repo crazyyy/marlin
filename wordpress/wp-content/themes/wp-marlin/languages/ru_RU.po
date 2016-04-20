@@ -1,58 +1,46 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Knaipas WordPress Theme\n"
-"POT-Creation-Date: 2012-10-18 00:53+0100\n"
+"POT-Creation-Date: 2016-04-20 18:57+0300\n"
 "PO-Revision-Date: \n"
-"Last-Translator: knaipa <aparserok@gmail.com>\n"
+"Last-Translator: saitobaza.ru <aparserok@gmail.com>\n"
 "Language-Team: \n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.8.6\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: _e;__\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
 
-#: ../404.php:9
+#: ../js/vendor.js:1
+msgid "@media "
+msgstr "@media "
+
+#: ../js/vendor.js:1
+msgid ""
+"@media (transform-3d),(-webkit-transform-3d){#modernizr{left:9px;position:"
+"absolute;height:3px;}}"
+msgstr ""
+"@media (transform-3d),(-webkit-transform-3d){#modernizr{left:9px;position:"
+"absolute;height:3px;}}"
+
+#: ../js/vendor.js:1
+msgid "@font-face {font-family:\"font\";src:url(\"https://\")}"
+msgstr "@font-face {font-family:\"font\";src:url(\"https://\")}"
+
+#: ../404.php:4
 msgid "Page not found"
 msgstr "Страница не найдена"
 
-#: ../404.php:10
+#: ../404.php:5
 msgid "Return home?"
 msgstr "Вернутся назад?"
 
-#: ../archive.php:6
-msgid "Archives"
-msgstr "Архивы "
-
-#: ../author.php:8
-msgid "Author Archives for "
-msgstr "Архивы записей автора "
-
-#: ../author.php:41 ../loop.php:22 ../single.php:27
-msgid "Published by"
-msgstr "Записи автора "
-
-#: ../author.php:42 ../loop.php:23 ../single.php:28
-msgid "Leave your thoughts"
-msgstr "Добавить комментарий "
-
-#: ../author.php:42 ../loop.php:23 ../single.php:28
-msgid "1 Comment"
-msgstr "1 комментарий"
-
-#: ../author.php:42 ../loop.php:23 ../single.php:28
-msgid "% Comments"
-msgstr "% комментариев"
-
-#: ../author.php:61 ../loop.php:41 ../page.php:31 ../single.php:55
-#: ../template-demo.php:33
-msgid "Sorry, nothing to display."
-msgstr "Извините, нечего показывать ;("
-
-#: ../category.php:6
+#: ../category.php:4
 msgid "Categories for"
 msgstr "Записи "
 
@@ -66,124 +54,171 @@ msgstr ""
 msgid "Comments are closed here."
 msgstr "Комментирование закрыто."
 
-#: ../footer.php:6
-msgid "Powered by"
-msgstr "Работает на "
+#: ../footer.php:11
+msgid "ALL RIGHTS RESERVED"
+msgstr "ВСЕ ПРАВА ЗАЩИЩЕНЫ"
 
-#: ../functions.php:174
+#: ../footer.php:11
+msgid "year"
+msgstr "год"
+
+#: ../functions.php:162
+msgid "Меню в шапке"
+msgstr "Header Nav"
+
+#: ../functions.php:163
+msgid "Меню в сайдбар"
+msgstr "Sidebar Nav"
+
+#: ../functions.php:164
+msgid "Меню в подвал"
+msgstr "Footr nav"
+
+#: ../functions.php:171
+msgid "Блок виджетов #1"
+msgstr "Widget Block 1"
+
+#: ../functions.php:172
+msgid "Description for this widget-area..."
+msgstr "Описание для области виджета..."
+
+#: ../functions.php:340
 #, php-format
-msgid "<span class=\"fn\">%s</span> <span class=\"says\">says:</span>"
-msgstr "<span class=\"fn\">%s</span> <span class=\"says\">сказал:</span>"
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">написал:</span>"
 
-#: ../functions.php:177
+#: ../functions.php:343
 msgid "Your comment is awaiting moderation."
 msgstr "Ваш комментарий ожидает модерации."
 
-#: ../functions.php:184
+#: ../functions.php:348
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s в %2$s"
 
-#: ../functions.php:184
+#: ../functions.php:348
 msgid "(Edit)"
 msgstr "(Изменить)"
 
-#: ../functions.php:209
-msgid "Header Menu"
-msgstr "Меню шапки"
+#: ../functions.php:547
+msgid "Page"
+msgstr "Страница"
 
-#: ../functions.php:210
-msgid "Sidebar Menu"
-msgstr "Меню сайдбара"
+#: ../header.php:47
+msgid "PHONES"
+msgstr "ТЕЛЕФОНЫ"
 
-#: ../functions.php:211
-msgid "Extra Menu"
-msgstr "Экстра менб"
-
-#: ../functions.php:257
-msgid "Widget Area 1"
-msgstr "Область виджетов 1"
-
-#: ../functions.php:258 ../functions.php:269
-msgid "Description for this widget-area..."
-msgstr "Описание для области виджета..."
-
-#: ../functions.php:268
-msgid "Widget Area 2"
-msgstr "Область виджетов 2"
-
-#: ../functions.php:333
-msgid "View Article"
-msgstr "Посмотреть запись"
-
-#: ../functions.php:438 ../functions.php:439
-msgid "HTML5 Blank Custom Post"
-msgstr "Произвольная запись"
-
-#: ../functions.php:440
-msgid "Add New"
-msgstr "Добавить новую"
-
-#: ../functions.php:441
-msgid "Add New HTML5 Blank Custom Post"
-msgstr "Добавить новую индивидуальную запись"
-
-#: ../functions.php:442
-msgid "Edit"
-msgstr "(Изменить)"
-
-#: ../functions.php:443
-msgid "Edit HTML5 Blank Custom Post"
-msgstr "Редактировать  новую индивидуальную запись"
-
-#: ../functions.php:444
-msgid "New HTML5 Blank Custom Post"
-msgstr "Новая  индивидуальная запись"
-
-#: ../functions.php:445 ../functions.php:446
-msgid "View HTML5 Blank Custom Post"
-msgstr "Посмотреть новую индивидуальную запись"
-
-#: ../functions.php:447
-msgid "Search HTML5 Blank Custom Post"
-msgstr "Найти новую индивидуальную запись"
-
-#: ../functions.php:448
-msgid "No HTML5 Blank Custom Posts found"
-msgstr "Не найдено индивидуальных записей"
-
-#: ../functions.php:449
-msgid "No HTML5 Blank Custom Posts found in Trash"
-msgstr "Корзина пуста"
-
-#: ../index.php:6
+#: ../index.php:4
 msgid "Latest Posts"
 msgstr "Последние записи"
 
-#: ../search.php:6
+#: ../loop.php:17 ../single.php:13
+msgid "Published by"
+msgstr "Записи автора "
+
+#: ../loop.php:18 ../single.php:14
+msgid "Leave your thoughts"
+msgstr "Добавить комментарий "
+
+#: ../loop.php:18 ../single.php:14
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: ../loop.php:18 ../single.php:14
+msgid "% Comments"
+msgstr "% комментариев"
+
+#: ../loop.php:26 ../page.php:13 ../single.php:32
+msgid "Sorry, nothing to display."
+msgstr "Извините, нечего показывать ;("
+
+#: ../search.php:4
 #, php-format
 msgid "%s Search Results for "
 msgstr "Результаты поиска для %s"
 
-#: ../searchform.php:5
+#: ../searchform.php:3
 msgid "Search"
 msgstr "Поиск"
 
-#: ../single.php:35
+#: ../sidebar.php:2
+msgid "FEEDBACK FORM"
+msgstr "ФОРМА ОБРАТНОЙ СВЯЗИ"
+
+#: ../single.php:18
 msgid "Tags: "
 msgstr "Метки: "
 
-#: ../single.php:37
+#: ../single.php:20
 msgid "Categorised in: "
 msgstr "Рубрика: "
 
-#: ../single.php:39
+#: ../single.php:22
 msgid "This post was written by "
 msgstr "Эту запись добавил "
 
-#: ../tag.php:6
-msgid "Tag Archive: "
-msgstr "Архив меток: "
+#~ msgid "Archives"
+#~ msgstr "Архивы "
 
-msgid "%s results for "
-msgstr "%s результаты"
+#~ msgid "Author Archives for "
+#~ msgstr "Архивы записей автора "
+
+#~ msgid "Powered by"
+#~ msgstr "Работает на "
+
+#~ msgid "<span class=\"fn\">%s</span> <span class=\"says\">says:</span>"
+#~ msgstr "<span class=\"fn\">%s</span> <span class=\"says\">сказал:</span>"
+
+#~ msgid "Header Menu"
+#~ msgstr "Меню шапки"
+
+#~ msgid "Sidebar Menu"
+#~ msgstr "Меню сайдбара"
+
+#~ msgid "Extra Menu"
+#~ msgstr "Экстра менб"
+
+#~ msgid "Widget Area 1"
+#~ msgstr "Область виджетов 1"
+
+#~ msgid "Widget Area 2"
+#~ msgstr "Область виджетов 2"
+
+#~ msgid "View Article"
+#~ msgstr "Посмотреть запись"
+
+#~ msgid "HTML5 Blank Custom Post"
+#~ msgstr "Произвольная запись"
+
+#~ msgid "Add New"
+#~ msgstr "Добавить новую"
+
+#~ msgid "Add New HTML5 Blank Custom Post"
+#~ msgstr "Добавить новую индивидуальную запись"
+
+#~ msgid "Edit"
+#~ msgstr "(Изменить)"
+
+#~ msgid "Edit HTML5 Blank Custom Post"
+#~ msgstr "Редактировать  новую индивидуальную запись"
+
+#~ msgid "New HTML5 Blank Custom Post"
+#~ msgstr "Новая  индивидуальная запись"
+
+#~ msgid "View HTML5 Blank Custom Post"
+#~ msgstr "Посмотреть новую индивидуальную запись"
+
+#~ msgid "Search HTML5 Blank Custom Post"
+#~ msgstr "Найти новую индивидуальную запись"
+
+#~ msgid "No HTML5 Blank Custom Posts found"
+#~ msgstr "Не найдено индивидуальных записей"
+
+#~ msgid "No HTML5 Blank Custom Posts found in Trash"
+#~ msgstr "Корзина пуста"
+
+#~ msgid "Tag Archive: "
+#~ msgstr "Архив меток: "
+
+#~ msgid "%s results for "
+#~ msgstr "%s результаты"

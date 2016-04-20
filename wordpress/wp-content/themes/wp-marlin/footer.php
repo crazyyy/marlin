@@ -8,7 +8,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4 footer-copyright">
-        <p><?php bloginfo('name'); ?><br>ВСЕ ПРАВА ЗАЩИЩЕНЫ<br>2015-<?php echo date("Y"); ?> год</p>
+        <p><?php bloginfo('name'); ?><br><?php _e( 'ALL RIGHTS RESERVED', 'wpeasy' ); ?><br>2015-<?php echo date("Y"); ?> <?php _e( 'year', 'wpeasy' ); ?></p>
       </div><!-- /.col-md-2 footer-copyright -->
 
       <div class="col-md-4 col-md-offset-4 footer-phone">
