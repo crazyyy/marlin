@@ -86,7 +86,7 @@ picture {
   @extend .clearfix;
 }
 .container {
-  min-width: 540px !important;
+  min-width: 400px !important;
 }
 header {
   .choose-language,
@@ -558,18 +558,19 @@ footer {
     .row {
       position: relative;
     }
-    .logo-block {
-      position: absolute;
-      top: 110px;
-      left: 190px;
-
-      width: 120px;
-      padding-top: 0;
-      .logo {
-        width: 100%;
-      }
-    }
+    // .logo-block {
+    //   position: absolute;
+    //   top: 110px;
+    //   left: 190px;
+    //   width: 120px;
+    //   padding-top: 0;
+    //   .logo {
+    //     width: 100%;
+    //   }
+    // }
     .choose-language {
+      display: none;
+
       height: 100px;
       padding-top: 30px;
       h6 {
@@ -589,8 +590,10 @@ footer {
       }
     }
     .contacts-block {
-      padding-top: 20px;
+      display: none;
+
       height: 120px;
+      padding-top: 20px;
       .contact-phone {
         float: left;
 
@@ -600,7 +603,37 @@ footer {
   }
 }
 
-
+@media (max-width: 860px) {
+  body {
+    font-size: 14px;
+  }
+  article {
+    table {
+      td,
+      th {
+        font-size: 110%;
+      }
+    }
+  }
+}
+@media (max-width: 640px) {
+  body {
+    font-size: 12px;
+  }
+  article {
+    table {
+      td,
+      th {
+        font-size: 90%;
+      }
+    }
+  }
+}
+@media (max-width: 460px) {
+  body {
+    font-size: 10px;
+  }
+}
 
 @import 'fonts/font_fontawesome';
 @import 'fonts/font_roboto';
