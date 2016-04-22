@@ -36,3 +36,10 @@ $('input').on('focusout', function() {
     $(this).parent().parent('div').removeClass('input-focused');
   }
 })
+$('.headnav a').on('click', function(){
+  var goToId = $(this).attr('href');
+  goToId = "#" + goToId.substr(goToId.indexOf("#") + 1);
+  $('html, body').animate({
+    scrollTop: $(goToId).offset().top
+  }, 1000);
+})

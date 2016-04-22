@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/marlinmedia.eu/webstat"
+AuthUserFile /var/www/user1040/data/etc/20455512.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

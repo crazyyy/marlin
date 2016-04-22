@@ -1,4 +1,4 @@
-<aside class="col-md-12 callback-form">
+<aside class="col-md-12 callback-form" id="contacts">
   <h6><?php _e( 'FEEDBACK FORM', 'wpeasy' ); ?></h6>
 
   <?php if ( ICL_LANGUAGE_CODE=='ru' ) : ?>

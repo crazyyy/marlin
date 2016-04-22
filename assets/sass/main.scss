@@ -628,10 +628,20 @@ footer {
       }
     }
   }
+  footer {
+    .footer-copyright {
+      font-size: 100%;
+    }
+  }
 }
 @media (max-width: 460px) {
   body {
     font-size: 10px;
+  }
+  footer {
+    .footer-phone {
+      font-size: 100%;
+    }
   }
 }
 
